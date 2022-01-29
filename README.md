@@ -281,5 +281,41 @@ namespace Project1
             return lp;
         }
     }
+    -----------------------------------------------------------------------------------------------------------
+    using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Project1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ProsteMenu proste = new ProsteMenu();
+            proste.StartProsteMenu();
+        }
+       
+
+    }
+}
+------------------------------------------------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Project1
+{
+    class Waga// klasa utworzona dla pseudokalkulacji spadku wagi
+    {
+        public int wagaPoczatkowa { get; set; }// tak jak opisane w ProsteMenu etc
+        public int wagaKoncowa { get; set; }
+        public int iloscDniTreningu { get; set; }
+    }
+}
+------------------------------------------------------------------------------------------------------------
+
 }
        
